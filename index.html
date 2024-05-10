@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG Semântico</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- cabecalho -->
+    <header id="cabecalho">
+        <div id="menu-container">
+          <figure>
+            <img src="img/icon.png" alt="logo do blog" />
+          </figure>
+          <nav>
+            <ul id="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Categorias</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <!-- container do flex -->
+    <div id="pagina-container">
+      <!-- conteudo do blog -->
+      <main id="foto-container">
+        <article class="foto">
+          <img src="img/f1.jpg" alt="Passeio de barco" />
+          <h2 class="titulo"><a href="#">Algum texto</a></h2>
+          <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            non suscipit eos incidunt, cum reprehenderit. Modi autem quia
+            quisquam, tempore debitis esse neque nobis totam quidem, ea sequi
+            soluta facilis.
+          </p>
+          <p class="autor">Autor: xxx</p>
+          <a class="leia" href="#">Leia mais</a>
+        </article>
+        <article class="foto">
+          <img src="img/f2.jpg" alt="Cachoeira" />
+          <h2 class="titulo"><a href="#">Algum texto</a></h2>
+          <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            non suscipit eos incidunt, cum reprehenderit. Modi autem quia
+            quisquam, tempore debitis esse neque nobis totam quidem, ea sequi
+            soluta facilis.
+          </p>
+          <p class="autor">Autor: xxx</p>
+          <a class="leia" href="#">Leia mais</a>
+        </article>
+        <article class="foto">
+          <img src="img/f3.jpg" alt="Baloes" />
+          <h2 class="titulo"><a href="#">Algum texto</a></h2>
+          <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            non suscipit eos incidunt, cum reprehenderit. Modi autem quia
+            quisquam, tempore debitis esse neque nobis totam quidem, ea sequi
+            soluta facilis.
+          </p>
+          <p class="autor">Autor: xxx</p>
+          <a class="leia" href="#">Leia mais</a>
+      </main>
+      <!-- barra lateral -->
+      <aside id="lateral">
+        <section id="busca">
+          <h3>Busca</h3>
+          <form>
+              <input
+                class="campo"
+                type="text"
+                name="campo"
+                id="campo"
+                placeholder="Pesquise no Blog"
+              />
+              <input class="buscar" type="submit" value="Buscar" />
+          </form>
+        </section>
+        <section id="categorias">
+          <h3>Categorias</h3>
+          <nav>
+              <ul class="lista">
+                <li>Paisagens</li>
+                <li>Aventura</li>
+                <li>Viagens longas</li>
+                <li>Florestas</li>
+                <li>Cachoeiras</li>
+              </ul>
+          </nav>
+        </section>
+        <section id="tags">
+          <h3>Tags</h3>
+          <div id="itens">
+            <a href="#">Estilo de vida</a>
+            <a href="#">Viagem</a>
+            <a href="#">Barco</a>
+            <a href="#">Trilhas</a>
+            <a href="#">Tirolesa</a>
+            <a href="#">Rafting</a>
+            <a href="#">Parapente</a>
+          </div>
+        </section>
+      </aside>
+    </div>
+    <!-- rodapé -->
+    <footer id="footer">
+      <img src="img/icon.png" alt="icone do blog" />
+      <p>Os melhores registros de aventura</p>
+      <p>DeepTech Serviços @2024</p>
+    </footer>
+  </body>
+</html>
